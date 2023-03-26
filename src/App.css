@@ -1,0 +1,91 @@
+.App-header {
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+}
+
+.navbar {
+  padding: 0px 20px 0px 20px;
+  font-size: 14px;
+  background-color: white;
+  border-bottom: 1px solid grey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top:0;
+}
+
+.navbar-left h1 {
+  font-size: 30px;
+  cursor: pointer;
+  padding: 0px;
+}
+
+.navbar-left div {
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-left: 20px;
+  padding: 0px;
+  cursor: pointer;
+}
+
+.navbar-left div:hover {
+  text-decoration: underline;
+}
+
+.navbar-left, .navbar-right, .socials {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-left > * {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+
+.navbar-right {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.navbar-right button {
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-left: 20px;
+  padding: 5px 20px 5px 20px;
+  cursor: pointer;
+  transition: background-color 1s, color 1s;
+}
+
+.navbar-right button {
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 5px 20px 5px 20px;
+  border: 2px solid black;
+  border-radius: 35px;
+  cursor: pointer;
+  transition: background-color 1s, color 1s;
+  
+}
+
+.cart-btn:hover {
+  color: white;
+  background-color: green;
+  transition: background-color 1s, color 1s;
+}
+
+.nav-right-btn:hover {
+  color: white;
+  background-color: black;
+  transition: background-color 1s, color 1s;
+}
+.beats-container {
+  display: flex;
+  flex-direction: column;
+}
+.beat {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-evenly;
+}
